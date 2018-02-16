@@ -1,0 +1,23 @@
+<template id="currency-converter-template">
+  <div class="currency-converter-container">
+    <h3>Currency converter</h1>
+    <div class="source">
+        <label for="sourceAmount">Type in amount and select currency:</label><br>
+        <input id="sourceAmount" type="text" />
+        <select name="sourceCurrency" id="sourceCurrency" class="sourceCurrency"></select>
+    </div>
+    <div class="target">
+        <label for="targetAmount">Converted amount:</label><br>
+        <input id="targetAmount" type="text" />
+        <select name="targetCurrency" id="targetCurrency" class="targetCurrency"></select>
+    </div>
+    <div class="disclaimerLink">
+      <a href="#">Disclaimer</a>
+    </div>
+    <div class="disclaimerContainer close">
+      <label for="">Exchange rate is: </label><span id="rate"></span>
+    </div>
+  </div>
+</template>
+<script src="js/currency-converter.js"></script>
+<link rel="stylesheet" href="css/currency-converter/currency-converter.css">

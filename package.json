@@ -1,0 +1,16 @@
+{
+  "name": "currency_dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard that displays several currency converters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gennady Zilbersher",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1"
+  }
+}
