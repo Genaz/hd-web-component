@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Currency dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="import" href="currency-converter.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      Currency Dashboard
+    </div>
+  </header>
+  <section class="main-container">
+      <hd-currency-converter></hd-currency-converter>
+      <hd-currency-converter source="EUR" target="CAD"></hd-currency-converter>
+      <hd-currency-converter source="USD" target="EUR"></hd-currency-converter>
+  </section>
+  <script src="js/polyfill/webcomponents-lite.js"></script>
+</body>
+</html>

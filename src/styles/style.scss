@@ -1,31 +1,4 @@
-
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Helvetica', sans-serif;
-  width: 90%;
-  margin: 0 auto;
-  background-color: #EEE8D6;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-}
-header {
-  margin-top: 10px;
-  background-color: rgb(113, 126, 165);
-  font-size: 2em;
-  padding: 7px;
-  color: #EEE8D6;
- 
-}
-
-
-.main-container {
-  display: flex;
- } 
-
-footer {
-  height: 60px;
-  background-color: gray;
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "media";

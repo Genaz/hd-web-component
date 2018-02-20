@@ -1,0 +1,24 @@
+@media(min-width: $small) {
+  .main-container {
+    flex-flow: column;
+  } 
+  hd-currency-converter {
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width: $medium) {
+  .main-container {
+    flex-flow: row wrap;
+    flex: 1 50%;
+    justify-content: space-between;
+  }
+}
+
+@media(min-width: $large) {
+  .main-container {
+    flex-flow: row wrap;
+    flex: 1;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,25 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+      -ms-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+@mixin appearance($appearance) {
+  -webkit-appearance:appearance;
+    -moz-appearance:appearance;
+         appearance:appearance;
+}
+@mixin transform($angle) {
+    -webkit-transform:rotate($angle);
+       -moz-transform:rotate($angle);
+        -ms-transform:rotate($angle);
+            transform:rotate($angle);
+}
