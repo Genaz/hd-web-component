@@ -4,10 +4,13 @@
   "description": "Dashboard that displays several currency converters.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel --presets es2015 src/components/currency-converter/currency-converter.js --out-file dist/js/currency-converter.js"
   },
   "author": "Gennady Zilbersher",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
