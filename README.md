@@ -1,6 +1,6 @@
 # hd-web-component
 Steps to run the application:
-1. Clone application from the following url: 
+1. Clone application from the following url: https://github.com/Genaz/hd-web-component.git
 2. In the terminal, run npm install command to install that are needed mostly for development and to run  a local server.
 3. Run gulp command.
 
